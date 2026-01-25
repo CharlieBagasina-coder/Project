@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+</head>
+<style>
+    body {
+        font-family: verdana;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+        background-color: rgb(177, 131, 88);
+        border-radius: 10px;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: 0;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        padding: 15px 16px;
+        text-decoration: none;
+        transition: 0.3s ease;
+        font-weight: bold;
+        border-left: 4px solid transparent;
+    }
+
+    li a:hover {
+        background-color: #66441b;
+        padding-left: 20px;
+        border-left: 4px solid white;
+    }
+
+    li a:active {
+        background-color: #5a3a14;
+    }
+
+    .img {
+        width: 200px;
+        height: 200px;
+        margin-left: 760px;
+        margin-right: auto;
+        margin-bottom: 80px;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        border-radius: 150px;
+        box-shadow: black 0px 4px 8px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        border: 3px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 220px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #bb9a8b;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .p-container {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-left: 200px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #bb9a8b;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        height: auto;
+
+    }
+</style>
+
+<body>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Profile.html">Profile</a></li>
+        <li><a href="Contact.html">Contact/Social Media</a></li>
+        <li><a href="AboutMe.html">About Me</a></li>
+    </ul>
+
+    <h1>Profile</h1>
+
+    <div>
+        <img src="charlie.jpg" class="img">
+    </div>
+
+    <div class="p-container">
+        <p>Name: Charlie P. Bagasina</p>
+        <p>Age: 18</p>
+        <p>Course/Year: BSCS - First Year</p>
+        <p>Home Address: San Miguel, Dagohoy, Bohol</p>
+        <p>School: University Of Bohol</p>
+    </div>
+</body>
+
+</html>
